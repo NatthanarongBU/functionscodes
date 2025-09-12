@@ -10,6 +10,15 @@ export default function Home() {
       category: "Image Processing",
       tags: ["AI", "Image", "Background"],
       gradient: "from-purple-500 to-pink-500"
+    },
+    {
+      title: "QR Code Generator",
+      description: "Generate custom QR codes for URLs, text, WiFi, and more with customizable options",
+      href: "/qr",
+      icon: "📱",
+      category: "Utilities",
+      tags: ["QR", "Generator", "Code"],
+      gradient: "from-green-500 to-blue-500"
     }
   ];
 
@@ -76,7 +85,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-blue-400 mb-2">1+</div>
+              <div className="text-4xl font-bold text-blue-400 mb-2">2+</div>
               <div className="text-gray-400">Active Tools</div>
             </div>
             <div className="text-center">
@@ -194,6 +203,7 @@ export default function Home() {
               <h4 className="text-white font-semibold mb-4">Tools</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><Link href="/bgrm" className="hover:text-white transition-colors">Background Removal</Link></li>
+                <li><Link href="/qr" className="hover:text-white transition-colors">QR Code Generator</Link></li>
                 <li><span className="text-gray-600">More coming soon...</span></li>
               </ul>
             </div>
