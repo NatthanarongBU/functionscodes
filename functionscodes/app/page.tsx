@@ -8,7 +8,7 @@ export default function Home() {
       href: "/bgrm",
       icon: "🎨",
       category: "Image Processing",
-      tags: ["AI", "Image", "Background"],
+      tags: ["Photo", "Image", "Editor"],
       gradient: "from-purple-500 to-pink-500"
     },
     {
@@ -17,7 +17,7 @@ export default function Home() {
       href: "/qr",
       icon: "📱",
       category: "Utilities",
-      tags: ["QR", "Generator", "Code"],
+      tags: ["QR", "Mobile", "Share"],
       gradient: "from-green-500 to-blue-500"
     }
   ];
@@ -39,9 +39,6 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
               </button>
-              <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg font-medium transition-colors">
-                Sign In
-              </button>
             </div>
           </div>
         </div>
@@ -59,14 +56,14 @@ export default function Home() {
           <div className="text-center">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                Developer Tools
+                Web Tools
               </span>
               <br />
               <span className="text-white">Made Simple</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8 leading-relaxed">
-              A collection of powerful, AI-driven tools designed to boost your productivity. 
-              Fast, reliable, and built for developers who demand excellence.
+              A collection of powerful, easy-to-use web tools designed to boost your productivity. 
+              Fast, reliable, and built for everyone who needs quick solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
@@ -195,8 +192,8 @@ export default function Home() {
                 functions.codes
               </div>
               <p className="text-gray-400 max-w-md">
-                Empowering developers with AI-powered tools and utilities. 
-                Built with modern technology for maximum performance.
+                Empowering everyone with easy-to-use web tools and utilities. 
+                Built with modern technology for maximum performance and simplicity.
               </p>
             </div>
             <div>
